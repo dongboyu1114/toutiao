@@ -31,7 +31,7 @@ export const getUserInfo = () => {
 }
 
 /**
- * 获取用户自己的信息
+ * 获取列表数据
  */
 export const getUserChannels = () => {
   return request({
