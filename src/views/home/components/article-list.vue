@@ -56,7 +56,6 @@ export default {
         // JSON.parse('adsdasdsa')
         const { results } = data.data
         this.list.push(...results)
-        console.log(data)
         this.loading = false
         if (results.length) {
           // 更新获取下一页数据的时间戳
