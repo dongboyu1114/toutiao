@@ -42,6 +42,11 @@ const routes = [{
   name: 'article',
   component: () => import('@/views/article'),
   props: true // 开启props传参
+},
+{
+  name: 'user-profile',
+  path: '/user/profile',
+  component: () => import('@/views/user')
 }]
 const router = new VueRouter({
   routes
